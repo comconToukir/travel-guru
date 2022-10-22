@@ -1,0 +1,32 @@
+.form-outer-container {
+  margin: auto;
+  height: calc(100vh - 95px);
+  display: grid;
+  place-items: center;
+}
+
+.form-inner-container {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  width: 480px;
+  height: 600px;
+  background: linear-gradient(rgba(61, 61, 61, 0.539), rgba(61, 61, 61, 0.531)),
+    url("https://mdbootstrap.com/img/Photos/Others/pricing-table7.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.33rem;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22),
+    0 25px 55px 0 rgba(0, 0, 0, 0.21) !important;
+}
+
+.form-inner-container form {
+  width: 100%;
+}
+
+.form-inner-container label,
+.form-inner-container input,
+.form-inner-container p
+ {
+  color: rgba(255, 255, 255, 0.894) !important;
+}
