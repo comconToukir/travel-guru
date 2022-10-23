@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <>
       <HeaderNav />
-      <MDBContainer className="mt-3">
+      <MDBContainer className="mt-5">
         <Outlet />
       </MDBContainer>
     </>

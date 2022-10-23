@@ -1,3 +1,8 @@
-.main-header {
-  backdrop-filter: blur(3px);
+#header-logo {
+  filter:invert(1);
+  margin-right: 30px;
+}
+
+.user-icon-toggle::after {
+  content: none;
 }
